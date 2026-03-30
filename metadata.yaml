@@ -1,0 +1,5 @@
+homepage: "https://harvv.com"
+documentation: "https://harvv.com/#/for/websites"
+versions:
+  - sha: "PLACEHOLDER_WILL_UPDATE_AFTER_COMMIT"
+    changeNotes: "Initial release — Harvv behavioral UX analytics pixel"
