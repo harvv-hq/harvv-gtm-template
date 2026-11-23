@@ -11,7 +11,7 @@ ___INFO___
     "displayName": "Harvv",
     "thumbnail": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDAiIGhlaWdodD0iNDAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHJlY3Qgd2lkdGg9IjQwIiBoZWlnaHQ9IjQwIiByeD0iOCIgZmlsbD0iIzYzNjZmMSIvPjx0ZXh0IHg9IjIwIiB5PSIyNiIgZm9udC1mYW1pbHk9IkludGVyLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTYiIGZvbnQtd2VpZ2h0PSI4MDAiIGZpbGw9IiNmZmYiIHRleHQtYW5jaG9yPSJtaWRkbGUiPkg8L3RleHQ+PC9zdmc+"
   },
-  "description": "Install the Harvv behavioral analytics pixel. Detects dead clicks, rage clicks, hesitation, scroll problems, and JS errors automatically. 3KB, zero PII, AI-generated fix recommendations.",
+  "description": "Install the Harvv behavioral analytics pixel. Detects dead clicks, rage clicks, hesitation, scroll problems, and JS errors automatically. AI-generated fix recommendations. Sets first-party cookies with a random visitor ID.",
   "containerContexts": [
     "WEB"
   ],
@@ -160,7 +160,10 @@ Harvv Behavioral UX Analytics Pixel
 This tag loads the Harvv behavioral analytics pixel on your website.
 The pixel is under 3.5KB gzipped and captures 18 behavioral signals
 including dead clicks, rage clicks, hesitation, scroll depth, and
-JS errors — without collecting any personal data.
+JS errors. It does not collect names, emails or typed text. It sets
+first-party cookies with a random visitor ID, so list it in your privacy
+policy and fire this tag only after consent where your visitors' law
+requires it.
 
 Setup:
 1. Create a free account at harvv.com
