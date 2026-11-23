@@ -2,7 +2,7 @@
 
 Behavioral UX analytics pixel for Google Tag Manager.
 
-Detects dead clicks, rage clicks, hesitation, scroll problems, and JS errors automatically. Under 3.5KB gzipped, zero PII collected.
+Detects dead clicks, rage clicks, hesitation, scroll problems, and JS errors automatically. One async script, about 43 KB gzipped.
 
 ## Setup
 
@@ -28,10 +28,11 @@ Detects dead clicks, rage clicks, hesitation, scroll problems, and JS errors aut
 
 ## Privacy
 
-- Zero personal data collected
-- No form values, text content, or keystrokes (except Tab/Escape)
-- First-party cookies only
-- 3.5KB gzipped — smaller than a product thumbnail
+Harvv does not collect names, emails or anything visitors type, and it does not record sessions. It uses first-party cookies with a random visitor ID, so list it in your privacy policy and your consent banner where your visitors' law requires one.
+
+- No form values or typed text
+- No session recordings
+- Fire this tag only after consent where your visitors' law requires it
 
 ## Links
 
